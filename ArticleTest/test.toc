@@ -1,0 +1,21 @@
+\select@language {spanish}
+\contentsline {section}{Introduction}{1}{section*.2}
+\contentsline {section}{\numberline {1}Background}{2}{section.1}
+\contentsline {section}{\numberline {2}El Proceso de la Revisión Sistemática}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Planeación de la Revisión Sistemática}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Identificación de la Necesidad de la Revisión Sistemática}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Especificación de las Preguntas de Investigación}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Desarrollo del Protocolo de Revisión}{4}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Evaluación del Protocolo de Revisión}{4}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}Ejecución de la Revisión}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Selección de las Fuentes / Identificación de la Investigación}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Procedimiento de Selección de los Estudios Primarios}{6}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Evaluación de la Calidad de los Estudios}{10}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}Extracción y Monitoreo de la Información}{10}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Síntesis de la Información}{10}{subsubsection.2.2.5}
+\contentsline {subsection}{\numberline {2.3}Reporte de Resultados}{10}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Revisiones Literarias}{10}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Métodos Existentes}{10}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Evaluación del Reporte}{10}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Conclusiones}{10}{section.3}
+\contentsline {section}{Acknowledgments}{10}{section*.4}
