@@ -55,7 +55,7 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage[spanish]{babel}
-
+\usepackage{comment}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
@@ -82,7 +82,20 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 
 \begin{frame}
 \frametitle{Agenda}
-\tableofcontents 
+
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+	
+	\column{.45\textwidth} % Left column and width
+	\begin{figure}
+		\begin{center}
+			\includegraphics[scale=0.25]{images/2icons/content.png}
+		\end{center}
+	\end{figure}
+	
+	\column{.5\textwidth} % Right column and width
+	\tableofcontents 
+	
+\end{columns}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
@@ -95,17 +108,21 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 
 \begin{frame}
 \Huge{\centerline{Introducción}}
+\begin{figure}
+	\begin{center}
+		\includegraphics[scale=0.2]{images/2icons/start.png}
+	\end{center}
+\end{figure}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Motivación}
-	Elegí este tema debido al interés e el área para aplicar técniacs o métodos de gamificación en la educación, con el objetivo de motivar el aprendizaje de los estudiantes y mejorar su desempeño académico.
+	Elegí este tema debido al interés e el área para aplicar técnicas o métodos de gamificación en la educación, con el objetivo de motivar el aprendizaje de los estudiantes y mejorar su desempeño académico.
 	\\~\\
 	
 	\begin{figure}
 		\begin{center}
 			\includegraphics[scale=0.1]{images/2icons/student.png}
-			\label{student}
 		\end{center}
 	\end{figure}
 \end{frame}
@@ -115,87 +132,89 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 	.\\~\\
 \end{frame}
 
-%------------------------------------------------
-\section{Revisión Sistemática} %
-%------------------------------------------------
-
+\section{Revisión Sistemática}
 \begin{frame}
 \Huge{\centerline{Revisión Sistemática}}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[scale=0.4]{images/2icons/systematicReview.png}
+		\end{center}
+	\end{figure}
 \end{frame}
 
+
+\subsection{Proceso}
 \begin{frame}
 	\frametitle{El Proceso de la Revisión Sistemática}	
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[scale=0.4]{images/1document/steps.png}
-			\label{Pasos}
 		\end{center}
 	\end{figure}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Objetivos: General y Específicos (1/2)}
-    Como parte de la definición de nuestro Objetivo General del estudio tenemos:
-    \begin{description}
-	    \item[Definir] el estado del arte actual del uso de técnicas de Gamificación en la educación tradicional (Aula, Alumno, Profesor), para descubrir las diferentes técnicas de Gamificación para implementarlas en\\ la educación.
-    \end{description}
-	\begin{figure}
+	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[scale=0.1]{images/2icons/tarjet.png}
-			\label{student}
+			\includegraphics[scale=1]{images/2icons/steps.png}
 		\end{center}
 	\end{figure}
+	
 \end{frame}
 
-\begin{frame}
-    \frametitle{Objetivos: General y Específicos(2/2)}
-    Los objetivos Específicos del estudio son:
-    \begin{description}
-	    \item[Definir] el estado del arte de la Gamificación en E-Learning.
-        	\item[Revisar] las estrategias o técnicas de Gamificación implementadas en el área de la educación.
-        	\item[Comparar] la aplicación técnicas de gamificación implementadas en educación.
-    \end{description}
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.1]{images/2icons/tarjet2.png}
-			\label{student}
-		\end{center}
-	\end{figure}
-\end{frame}
 
+%------------------------------------------------
+%------------------------------------------------
 \subsection{Planeación de la Revisión}
-%------------------------------------------------
-%------------------------------------------------
 \begin{frame}
 \Huge{\centerline{Planeación de la Revisión}}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Protocolo}
-    .
 	\begin{figure}
 		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			\includegraphics[scale=.4]{images/2icons/plan.png}
 		\end{center}
 	\end{figure}
 \end{frame}
 
-\subsubsection{Identificación de la Necesidad de la Revisión Sistemática}
+\begin{frame}
+    \frametitle{Protocolo}    .
+	\begin{figure}
+		\begin{center}
+			\includegraphics[scale=0.1]{images/2icons/need.png}
+		\end{center}
+	\end{figure}
+\end{frame}
+
 \begin{frame}
     \frametitle{Identificación de la Necesidad de la Revisión Sistemática}
     Hoy en día la Gamificación es un tema que esta siendo aplicado más allá de los juegos que tradicionalmente conocemos, la aplicación de técnicas para gamificación pueden ser variadas dependiendo del área donde se trabaje. Entonces, es importante conocer si las técnicas y métodos de Gamificación desarrollados para la educación pueden ser aplicados en entornos de la educación en línea (E-Learning).
+\end{frame}
+
+\begin{frame}
+	\frametitle{Objetivos: General y Específicos (1/2)}
+	Como parte de la definición de nuestro Objetivo General del estudio tenemos:
+	\begin{description}
+		\item[Definir] el estado del arte actual del uso de técnicas de Gamificación en la educación tradicional (Aula, Alumno, Profesor), para descubrir las diferentes técnicas de Gamificación implementadas en la educación.
+	\end{description}
 	\begin{figure}
 		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			\includegraphics[scale=0.1]{images/2icons/tarjet.png}
 		\end{center}
 	\end{figure}
 \end{frame}
 
-%------------------------------------------------
-\subsubsection{Especificación de las Preguntas de Investigación}
-%------------------------------------------------
+\begin{frame}
+	\frametitle{Objetivos: General y Específicos(2/2)}
+	Los objetivos Específicos del estudio son:
+	\begin{description}
+		\item[Definir] el estado del arte de la Gamificación en la educación.
+		\item[Revisar] las estrategias o técnicas de Gamificación implementadas en el área de la educación.
+		\item[Comparar] la aplicación de técnicas de gamificación en la educación.
+	\end{description}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[scale=0.1]{images/2icons/tarjet2.png}
+		\end{center}
+	\end{figure}
+\end{frame}
+
+
 \begin{frame}
     \frametitle{Especificación de las Preguntas de Investigación}
     \begin{table}
@@ -211,103 +230,228 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
                         \hline
                         ¿Qué técnicas de gamificación han sido más efectivas? & De las técnicas existentes cuales han tenido resultados positivos en la educación y porque. \\
                         \hline
-                        ¿La gamificación en e-learning promueve el aprendizaje? & De de las técnicas de gamificación cuales se han aplicado para el área de la educación.\\
+                        ¿La gamificación promueve el aprendizaje? & Verificar si el conocimiento de los estudiantes mejora con la aplicación de gamificación.\\
                         \hline
-                        ¿En qué contextos ha sido investigada la gamificación? & Que experiencias se han tenido en el uso de gamificación.\\
+                        ¿En qué nivel educativo ha sido investigada la gamificación? & Conocer que experiencias se han tenido en el uso de gamificación.\\
                         \hline
                     \end{tabular}
                 \end{center}
             \end{table}
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
-		\end{center}
-	\end{figure}
 \end{frame}
 
-\subsubsection{Evaluación del Protocolo de Revisión}
+\begin{comment}
 \begin{frame}
     \frametitle{Evaluación del Protocolo de Revisión}
-    Como parte de la evaluación del protocolo se realizaron revisiones con el Dr. José Arturo Mora Soto asesor para realizar esta investigación. Una de las observaciones para mejorar la calidad de los estudios primarios fue la actualización de la palabra clave (keyword) <<Serious Game>> por <<Serious Games>>, palabra clave que permitió la creación de una cadena de búsqueda aplicada a en las bibliotecas digitales.
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
-		\end{center}
-	\end{figure}
+    Como parte de la evaluación del protocolo se realizaron revisiones con la Dra. Mirna profesora de la materia de Estudio Guiado I y el Dr. Arturo asesor para el realizar este trabajo.\\
+    Observaciones para evaluar el trabajo:
+    \begin{itemize}
+    	\item Actualización de la palabra clave  (KeyWord) ``Serious Game" por ``Serious Games".
+    \end{itemize}
+    \begin{figure}
+    	\begin{center}
+    		\includegraphics[scale=.1]{images/2icons/checklist.png}
+    	\end{center}
+    \end{figure}
+    
 \end{frame}
-
+\end{comment}
+%------------------------------------------------
 %------------------------------------------------
 \subsection{Ejecución de la Revisión} %
-%------------------------------------------------
 \begin{frame}
 \Huge{\centerline{Ejecución de la Revisión}}
-\end{frame}
-
-%------------------------------------------------
-\subsubsection{Selección de las Fuentes de Investigación} %
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Selección de las Fuentes de Investigación}
-    .
-	\begin{figure}
+	\begin{figure}[H]
 		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
-		\end{center}
+		    \includegraphics[scale=.3]{images/2icons/execute.png}
+	    \end{center}
 	\end{figure}
 \end{frame}
 
-%------------------------------------------------
-\subsubsection{Procedimiento de Selección de Estudios} %
-%------------------------------------------------
 \begin{frame}
-    \frametitle{Procedimiento de Selección de Estudios}
-    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
-		\end{center}
-	\end{figure}
+	\frametitle{Selección de las Fuentes de Investigación (1/3)\\Palabras Clave}
+	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\column{.5\textwidth} % Left column and width
+		Definición de Palabras Clave:
+		\begin{itemize}
+			\item Gamification
+			\item Gamify
+			\item Serious Games
+			\item Education
+			\item E-Learning
+		\end{itemize}
+		\column{.3\textwidth} % Right column and width
+		\begin{figure}
+			\begin{center}
+				\includegraphics[scale=0.2]{images/2icons/keyword.png}
+			\end{center}
+		\end{figure}	    	
+	\end{columns}
 \end{frame}
-%------------------------------------------------
-\subsubsection{Evaluación de la Calidad de Estudios} %
-%------------------------------------------------
+
+
 \begin{frame}
-    \frametitle{Evaluación de la Calidad de Estudios}
-    .
-	\begin{figure}
+	\frametitle{Selección de las Fuentes de Investigación (2/3)\\ Cadenas de Búsqueda}
+	\begin{table}
 		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			\begin{tabular}{| l | p{10cm} |}
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Núm}} & \multicolumn{1}{|c|}{\textbf{Cadena de Búsqueda}} \\
+				\hline
+				SS1 & ( ``Gamification''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
+				\hline
+				SS2 & ( ``Serious Games''{ }AND ``Gamification''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
+				\hline            
+				SS3 & ( ``Gamify''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
+				\hline
+			\end{tabular}
 		\end{center}
-	\end{figure}
+	\end{table}
+	    \begin{columns}[c]
+	    	\column{.2\textwidth}
+	    	\begin{figure}
+	    		\begin{center}
+	    			\includegraphics[scale=.5]{images/2icons/r.png}
+	    		\end{center}
+	    	\end{figure}
+	    	\column{.2\textwidth}
+	    	\begin{figure}
+	    		\begin{center}
+	    			\includegraphics[scale=0.1]{images/2icons/q.png}
+	    		\end{center}
+	    	\end{figure}
+	    	\column{.2\textwidth}
+	    	\begin{figure}
+	    		\begin{center}
+	    			\includegraphics[scale=0.1]{images/2icons/rq.png}
+	    		\end{center}
+	    	\end{figure}
+	    \end{columns}
 \end{frame}
-%------------------------------------------------
-\subsubsection{Extracción y Monitoreo de la Información} %
-%------------------------------------------------
+
+\begin{frame}
+    \frametitle{Selección de las Fuentes de Investigación (3/3)\\ Bibliotecas Digitales}
+    \begin{table}
+    	\begin{center}
+    		\begin{tabular}{| p{5cm} | p{5cm} |}
+    			\hline
+    			\textbf {Fuentes Contempladas en un Inicio} &  \textbf{Fuentes Donde se Realizó la Búsqueda}\\
+    			\hline
+    			IEEE Xplore Digital Library & IEEE Xplore Digital Library\\
+    			\hline
+    			ACM Digital Library & ACM Digital Library\\
+    			\hline
+    			Web of Science & Web of Science\\
+    			\hline
+    			JSTOR & x\\
+    			\hline
+    			Scopus & Scopus\\
+    			\hline
+    			Springer Link & Springer Link\\
+    			\hline
+    			Elsevier Science Direct & Elsevier Science Direct\\
+    			\hline
+    			Google Scholar & x\\
+    			\hline
+    		\end{tabular}
+    	\end{center}
+    \end{table}
+    \begin{columns}[c]
+    	\column{.2\textwidth}
+    	\begin{figure}
+    		\begin{center}
+    			\includegraphics[scale=1.2]{images/2icons/library.png}
+    		\end{center}
+    	\end{figure}
+    	\column{.2\textwidth}
+    	\begin{figure}
+    		\begin{center}
+    			\includegraphics[scale=0.2]{images/2icons/books.png}
+    		\end{center}
+    	\end{figure}
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{Procedimiento de Selección de Estudios\\ Criterios de Inclusión y Exclusión}
+	
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{| p{5.5cm} | p{5.5cm} |}
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Criterios de Inclusión}} & \multicolumn{1}{|c|}{\textbf{Criterios de Exclusión}} \\
+				\hline
+				Incluir artículos donde el título contengan dos palabras clave de nuestras cadenas de búsqueda principalmente ``Gamification''{ }& Excluir todos los artículos donde el título no contengan las palabras clave de la cadena de búsqueda.\\
+				\hline
+				Incluir artículos donde el resumen presente una relación con la aplicación de técnicas de  gamificación. & Excluir artículos donde el resumen no tenga relación con la aplicación de técnicas de gamificación.\\
+				\hline
+				Incluir artículos que estén escritos en Ingles y Español. & Excluir artículos que no estén en los idiomas del criterio de inclusión.\\ \hline
+				Incluir artículos entre el rango de años: 2010 - 2015. & Excluir artículos publicados menores al año 2010.\\
+				\hline
+			\end{tabular}
+		\end{center}
+	\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Evaluación de la Calidad de Estudios\\ Criterios de inclusión y exclusión aplicados para la calidad del Estudio}
+    .\begin{table}
+    	\begin{center}
+    		\begin{tabular}{| p{6cm} | p{4cm} |}
+    			\hline
+    			\multicolumn{1}{|c|}{\textbf{Criterios de Inclusión}} & \multicolumn{1}{|c|}{\textbf{Criterios de Exclusión}} \\
+    			\hline
+    			Incluir información sobre métodos de implementación para establecer estrategias de aprendizaje por medio de ``Gamification''.{ }& Excluir toda la información que no este relacionada con los criterios de inclusión definidos.\\
+    			\hline
+    			Incluir información que contenga experiencias del aprendizaje con ``Gamification''. &{.} \\
+    			\hline
+    			Incluir información donde se muestren estudios para el aprendizaje por medio de técnicas de e-learning.& {.}\\ \hline
+    		\end{tabular}
+    	\end{center}
+    \end{table}
+\end{frame}
+
 \begin{frame}
     \frametitle{Extracción y Monitoreo de la Información}
-    .
+    \footnotesize
+        	    \begin{table}
+        	    	\begin{center}
+        	    		\begin{tabular}{| l | p{7cm} |}
+        	    			\hline
+        	    			\multicolumn{2}{|c|}{\textbf{REGISTRO DE ARTÍCULO}} \\ \hline
+							NÚMERO & Identificador Propio \\ \hline
+        	    			TÍTULO & Titulo del Artículo \\ \hline
+        	    			CATEGORÍA & Gamification, Education, E-Learning, Serious Games \\ \hline
+        	    			AÑO DE PUBLICACIÓN & Año de Publicación del Artículo \\ \hline
+        	    			\begin{tabular}[c]{@{}l@{}}PALABRAS CLAVE \\ (KEYWORDS)\end{tabular} & Lista de Palabras Clave del Artículo \\ \hline
+        	    			ABSTRACT & Resumen del Artículo \\ \hline
+        	    			\begin{tabular}[c]{@{}l@{}}NOTAS ACERCA\\ DEL ABSTRACT \end{tabular} & Ideas principales del resumen del Artículo \\ \hline
+        	    			\multicolumn{2}{|c|}{\textbf{EXTRACCIÓN DE LA INFORMACIÓN}} \\ \hline                        
+        	    			\begin{tabular}[c]{@{}l@{}}RESUMEN DE\\ SECCIONES\end{tabular} & Estructura del documento con ideas principales de cada sección.\\ \hline
+        	    			\begin{tabular}[c]{@{}l@{}}TÉCNICAS, MÉTODOS,\\ APLICACIONES;\\ CREADAS\end{tabular} & Descripción de las Técnicas, Métodos o Aplicaciones para el uso de Gamificación.\\ \hline
+        	    			NOTAS  ADICIONALES & Material Extra e ideas para comprender el estudio.\\ \hline
+        	    		\end{tabular}
+        	    	\end{center}
+        	    \end{table}	
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Resumen Selección Estudios Primarios}
 	\begin{figure}
 		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			\includegraphics[scale=0.35]{images/1document/results.png}
 		\end{center}
 	\end{figure}
 \end{frame}
-%------------------------------------------------
-\subsubsection{Sístensis de la Información} %
-%------------------------------------------------
+
 \begin{frame}
     \frametitle{Sístensis de la Información}
     .
 	\begin{figure}
 		\begin{center}
 			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			
 		\end{center}
 	\end{figure}
 \end{frame}
@@ -317,180 +461,43 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 %------------------------------------------------
 
 \begin{frame}
-\Huge{\centerline{Ejecución de la Revisión}}
+\Huge{\centerline{Reporte de Resultados}}
 \end{frame}
 
 \begin{frame}
-    \frametitle{Protocolo}
+    \frametitle{Métodos y Técnicas Aplicados}
     .
 	\begin{figure}
 		\begin{center}
 			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			
 		\end{center}
 	\end{figure}
 \end{frame}
-%------------------------------------------------
-\subsubsection{Revisiones Literarias} %
-%------------------------------------------------
+
 \begin{frame}
-    \frametitle{Protocolo}
+    \frametitle{Evaluación del Reporte}
     .
 	\begin{figure}
 		\begin{center}
 			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			
 		\end{center}
 	\end{figure}
 \end{frame}
 %------------------------------------------------
-\subsubsection{Métodos y Técnicas Aplicados} %
+\section{Conclusiones} %
 %------------------------------------------------
 \begin{frame}
-    \frametitle{Protocolo}
+    \frametitle{Conclusiones}
     .
 	\begin{figure}
 		\begin{center}
 			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
+			
 		\end{center}
 	\end{figure}
 \end{frame}
-%------------------------------------------------
-\subsubsection{Evaluación del Reporte} %
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Protocolo}
-    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
-		\end{center}
-	\end{figure}
-\end{frame}
-%------------------------------------------------
-\section{Conclusiónes} %
-%------------------------------------------------
-\begin{frame}
-    \frametitle{Protocolo}
-    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			\label{student}
-		\end{center}
-	\end{figure}
-\end{frame}
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Bullet Points}
-\begin{itemize}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
-\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-\item Nam cursus est eget velit posuere pellentesque
-\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
-\end{itemize}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Blocks of Highlighted Text}
-\begin{block}{Block 1}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-\end{block}
-
-\begin{block}{Block 2}
-Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum quis magna at risus dictum tempor eu vitae velit.
-\end{block}
-
-\begin{block}{Block 3}
-Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci, sed blandit justo nisi ac lacus.
-\end{block}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Multiple Columns}
-\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-
-\column{.45\textwidth} % Left column and width
-\textbf{Heading}
-\begin{enumerate}
-\item Statement
-\item Explanation
-\item Example
-\end{enumerate}
-
-\column{.5\textwidth} % Right column and width
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-
-\end{columns}
-\end{frame}
-
-\begin{frame}
-\frametitle{Table}
-\begin{table}
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Verbatim}
-\begin{example}[Theorem Slide Code]
-\begin{verbatim}
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
-\end{frame}\end{verbatim}
-\end{example}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Figure}
-Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
-%\begin{figure}
-%\includegraphics[width=0.8\linewidth]{test}
-%\end{figure}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Citation}
-An example of the \verb|\cite| command to cite within the presentation:\\~
-
-This statement requires citation \cite{p1}.
-\end{frame}
-
 %------------------------------------------------
 
 \begin{frame}

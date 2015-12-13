@@ -176,13 +176,13 @@ Algunas de las características que diferencian una revisión sistemática de un
     	En esta primera etapa, la actividad más importante a tener en cuenta es la definición de la(s) pregunta(s) de investigación, puesto que son el punto clave para el desarrollo de nuestra investigación.\\
     	Como parte de la definición de nuestro Objetivo General del estudio tenemos:
         \begin{enumerate}
-        	\item Definir el estado del actual del uso de técnicas de Gamificación en la educación tradicional (aula - alumno - profesor), para descubrir las diferentes técnicas Gamificación para implementarlas en la educación.
+        	\item Definir el estado del actual del uso de técnicas de Gamificación en la educación tradicional (aula - alumno - profesor), para descubrir las diferentes técnicas de Gamificación para implementarlas en la educación.
         \end{enumerate}
 Los objetivos Específicos del estudio son:
         \begin{enumerate}
         	\item Definir el estado del arte de la Gamificación en E-Learning.
-        	\item Revisar el uso de estrategias o técnicas de Gamificación en el área de la educación.
-        	\item Comparar la aplicación de gamificación en educación.
+        	\item Revisar las estrategias o técnicas de Gamificación implementadas en el área de la educación.
+        	\item Comparar la aplicación técnicas de gamificación implementadas en educación.
         \end{enumerate}
 
     	    \subsubsection{Identificación de la Necesidad de la Revisión Sistemática} \label{needs}
@@ -225,43 +225,25 @@ Los objetivos Específicos del estudio son:
             
             \subsubsection{Evaluación del Protocolo de Revisión}
 
-            Como parte de la evaluación del protocolo se realizaron revisiones con el Dr. José Arturo Mora Soto asesor para realizar esta investigación. Una de las observaciones para mejorar la calidad de los estudios primarios fue la actualización de la palabra clave (keyword) <<Serious Game>> por <<Serious Games>>, palabra clave que permitió la creación de una cadena de búsqueda aplicada a en las bibliotecas digitales. \\
+            Como parte de la evaluación del protocolo se realizaron revisiones con el Dr. José Arturo Mora Soto asesor para realizar esta investigación. Una de las observaciones para mejorar la calidad de los estudios primarios fue la actualización de la palabra clave (keyword) <<Serious Game>> por <<Serious Games>>, palabra clave que permitió la creación de una cadena de búsqueda aplicada a en las bibliotecas digitales. 
 
         \subsection{Ejecución de la Revisión}
     
         Ahora que hemos establecido cuales son nuestras preguntas de investigación y el protocolo de investigación, comenzamos la etapa de ejecución. Durante la ejecución de la revisión sistemática debemos respetar el procedimiento establecido en el protocolo.
     
             \subsubsection{Selección de las Fuentes de  Investigación}
-    
-            La búsqueda para encontrar los estudios más relevantes se realizó en bibliotecas digitales haciendo uso de las cadenas de búsqueda con las siguientes palabras clave:
+            
+            Para la selección de las fuentes, primero se realizó la selección de las palabras claves, mismas que se describen a continuación: 
             \begin{enumerate}
                 \item Gamification
                 \item Gamify
                 \item Serious Games
                 \item Education
                 \item E-Learning
-            \end{enumerate}       
-            En la Tabla \ref{table:SearchString} se muestran las cadenas de búsqueda aplicadas a las bibliotecas digitales, como se puede notar las cadenas de búsqueda están formadas por las palabras claves de nuestra investigaciones y se combinaron mediante el uso de los conectores lógicos ``OR''{ }y ``AND''.    
-            \begin{table}
-                \begin{center}
-                    \caption{Cadenas de Búsqueda}
-                    \label{table:SearchString}
-                    \begin{tabular}{| p{1.5cm} | p{12.5cm} |}
-                        \toprule
-                        \hline
-                        \multicolumn{1}{|c|}{\textbf{Núm}} & \multicolumn{1}{|c|}{\textbf{Cadena de Búsqueda}} \\
-                        \hline
-                        SS1 & ( ``Gamification''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
-                        \hline
-                        SS2 & ( ``Serious Games''{ }AND ``Gamification''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
-                        \hline            
-                        SS3 & ( ``Gamify''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
-                        \hline
-                    \end{tabular}
-                \end{center}
-            \end{table}
-            
-            Inicialmente durante nuestra investigación se tenían contempladas 8 Bibliotecas Digitales para la aplicación de las cadenas de búsqueda, sin embargo durante la evaluación de los bibliotecas digitales 2 fueron excluidas de la selección: JSTOR debido al poco contenido ofrecido en temas de gamificación y e-learning y Google Scholar debido a la excesiva cantidad de resultados obtenidos para nuestras cadenas de búsqueda; ambas fueron excluidas para la recolección de estudios relevantes con el propósito de recolectar estudios relevantes sin mucha perdida de tiempo durante su búsqueda. De igual manera se encontraron casos donde un estudio relevante estaba presente en otra de las fuentes seleccionadas.\\ En la tabla \ref{table:libraries} se muestra la lista de bibliotecas digitales inicialmente contempladas y las bibliotecas digitales donde se llevo a cabo la aplicación de nuestras cadenas de búsqueda.
+            \end{enumerate}
+    
+            Durante la selección de las fuentes de investigación, inicialmente se tenían contempladas 8 Bibliotecas Digitales para la aplicación de las cadenas de búsqueda, sin embargo durante la evaluación de los bibliotecas digitales 2 fueron excluidas de la selección: JSTOR debido al poco contenido ofrecido acerca del temas de gamificación y e-learning y Google Scholar debido a la excesiva cantidad de resultados obtenidos para nuestros estudios.\\
+            Ambas fueron excluidas para la recolección de estudios relevantes con el propósito de recolectar estudios relevantes sin perdida de tiempo durante su búsqueda, de igual manera se encontraron casos donde un estudio relevante estaba presente en otra de las fuentes seleccionadas.\\ En la tabla \ref{table:libraries} se muestra la lista de bibliotecas digitales inicialmente contempladas y las bibliotecas digitales donde se llevo a cabo la aplicación de nuestras cadenas de búsqueda.
             \begin{table}
                 \begin{center}
                     \caption{Fuentes de Búsqueda}
@@ -290,11 +272,33 @@ Los objetivos Específicos del estudio son:
                     \end{tabular}
                 \end{center}
             \end{table}
+            
+            En la Tabla \ref{table:SearchString} se muestran las cadenas de búsqueda aplicadas a las bibliotecas digitales, como se puede notar las cadenas de búsqueda están formadas por las palabras claves de nuestra investigaciones y se combinaron mediante el uso de los conectores lógicos ``OR''{ }y ``AND''.
+            \begin{table}[H]
+                \begin{center}
+                    \caption{Cadenas de Búsqueda}
+                    \label{table:SearchString}
+                    \begin{tabular}{| p{1.5cm} | p{12.5cm} |}
+                        \toprule
+                        \hline
+                        \multicolumn{1}{|c|}{\textbf{Núm}} & \multicolumn{1}{|c|}{\textbf{Cadena de Búsqueda}} \\
+                        \hline
+                        SS1 & ( ``Gamification''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
+                        \hline
+                        SS2 & ( ``Serious Games''{ }AND ``Gamification''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
+                        \hline            
+                        SS3 & ( ``Gamify''{ }AND (``Education''{ }OR ``E-Learning''{ }) )\\
+                        \hline
+                    \end{tabular}
+                \end{center}
+            \end{table}
     
             \subsubsection{Procedimiento de Selección de los Estudios Relevantes}
     
 	        En esta actividad, se describe la manera en la que fueron seleccionados los estudios, después de realizar la búsqueda con nuestras cadenas de búsqueda definidas en la tabla \ref{table:SearchString} aplicadas en las bibliotecas digitales tabla \ref{table:libraries}. Al ejecutar la búsqueda en cada una de las bibliotecas seleccionadas, debemos aplicar nuestros criterios de inclusión y exclusión para destacar los estudios candidatos a convertirse a estudios primarios.\\
     	    Los criterios de inclusión y exclusión permiten acortar el número de resultados y enfocarnos en estudios de nuestro interés, relevantes para nuestra investigación y con un alto impacto de conocimiento. En esta investigación los criterios de inclusión y exclusión se muestran en la tabla \ref{table:criterios}. Cabe mencionar que la búsqueda de estudios se realizo durante el periodo del: 26 al 30 de noviembre del año 2015.\\
+    	    
+    	    Excluir los duplicados de los artículos encontrados
         	\begin{table}
                 \begin{center}
                     \caption{Criterios de inclusión y exclusión}
@@ -304,13 +308,12 @@ Los objetivos Específicos del estudio son:
                         \hline
                         \multicolumn{1}{|c|}{\textbf{Criterios de Inclusión}} & \multicolumn{1}{|c|}{\textbf{Criterios de Exclusión}} \\
                         \hline
-                        Incluir artículos donde el título contengan dos términos de nuestras cadenas de búsqueda principalmente ``Gamification''{ }& Excluir todos los artículos que correspondan con los criterios de inclusión definidos.\\
+                        Incluir artículos donde el título contengan dos palabras clave de nuestras cadenas de búsqueda principalmente ``Gamification''{ }& Excluir todos los artículos donde el título no contengan las palabras clave de la cadena de búsqueda.\\
                         \hline
-                        Incluir artículos que contengan dentro de sus palabras clave por lo menos dos términos de nuestras cadenas de búsqueda. & Excluir todos los artículos duplicados para eliminar la redundancia de información.\\
+                        Incluir artículos donde el resumen presente una relación con la aplicación de técnicas de gamificación. & Excluir artículos donde el resumen no tenga relación con la aplicación de técnicas de gamificación.\\
                         \hline
-                        Incluir artículos donde el resumen presente una relación con la aplicación de técnicas de gamificación. & Excluir artículos que se encuentren en idiomas diferentes al español o ingles.\\
-                        \hline
-                        . & Excluir artículos que contengan más de 10 páginas, debido a la limitación de tiempo para realizar la RS, con excepción de los artículos que sean de suma importancia para la investigación.\\
+                        Incluir artículos que estén escritos en Ingles y Español. & Excluir artículos que no estén en los idiomas del criterio de inclusión.\\ \hline
+                        Incluir artículos entre el rango de años: 2010 - 2015. & Excluir artículos publicados menores al año 2010.\\
                         \hline
                     \end{tabular}
                 \end{center}
@@ -377,7 +380,7 @@ Los objetivos Específicos del estudio son:
             
             \begin{table}[H]
                 \begin{center}
-                    \caption{Criterios de inclusión y exclusión aplicados para la extracción de la Información}
+                    \caption{Criterios de inclusión y exclusión aplicados para la calidad del estudio}
                     \label{table:CriteriosInclusionExclusionCalidad}
                     \begin{tabular}{| p{7cm} | p{7cm} |}
                         \toprule
@@ -386,9 +389,9 @@ Los objetivos Específicos del estudio son:
                         \hline
                         Incluir información sobre métodos de implementación para establecer estrategias de aprendizaje por medio de ``Gamification''.{ }& Excluir toda la información que no este relacionada con los criterios de inclusión definidos.\\
                         \hline
-                        Incluir información que contenga experiencias en la mejora del aprendizaje con ``Gamification''. &{ } \\
+                        Incluir información que contenga experiencias en la mejora del aprendizaje con ``Gamification''. &{.} \\
                         \hline
-                        Incluir información donde se muestren estudios mejoras para el aprendizaje por medio de técnicas de e-learning.\\ \hline
+                        Incluir información donde se muestren estudios mejoras para el aprendizaje por medio de técnicas de e-learning.& {.}\\ \hline
                     \end{tabular}
                 \end{center}
             \end{table}
@@ -408,7 +411,7 @@ Los objetivos Específicos del estudio son:
     	    Para realizar la extracción de la información se definió un formato con la estructura presentada en la Tabla \ref{table:extraccionInformacion}, por medio de este formato se identificaron las secciones así como las ideas principales de cada estudio.  
     	    \begin{table}[H]
                 \begin{center}
-                    \caption{Resultados de Cadenas de Búsqueda}
+                    \caption{Plantilla para Extracción de la Información}
                     \label{table:extraccionInformacion}
                     \begin{tabular}{| l | l |}
                         \toprule
