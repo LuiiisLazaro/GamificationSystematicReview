@@ -18,58 +18,31 @@
 \documentclass{beamer}
 
 \mode<presentation> {
-%\usetheme{default}
-%\usetheme{AnnArbor}
-%\usetheme{Antibes}-
-%\usetheme{Berkeley}
-%\usetheme{Boadilla}
-\usetheme{CambridgeUS}
-%\usetheme{Copenhagen}
-%\usetheme{Darmstadt}
-%\usetheme{Dresden}
-%\usetheme{Frankfurt}
-%\usetheme{Goettingen}
-%\usetheme{Hannover}
-%\usetheme{Ilmenau}
-%\usetheme{JuanLesPins}
-%\usetheme{Luebeck}
-%\usetheme{Madrid}
-%\usetheme{Malmoe}
-%\usetheme{Marburg}
-%\usetheme{Montpellier}
-%\usetheme{PaloAlto}
-%\usetheme{Pittsburgh}
-%\usetheme{Rochester}
-%\usetheme{Singapore}
-%\usetheme{Szeged}
-%\usetheme{Warsaw}
-
-\usecolortheme{seahorse}
-
-\setbeamertemplate{navigation symbols}{}
-
+	\usetheme{CambridgeUS}
+	\usecolortheme{seahorse}
+	\setbeamertemplate{navigation symbols}{}
 }
-
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage[spanish]{babel}
 \usepackage{comment}
+\usepackage{multirow}
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Gamificación]{Métodos y Técnicas de Gamificación Implementadas en Educación: Revisión Sistemática\\ Presentación de Avances} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Gamificación]{Métodos y Técnicas de Gamificación Implementadas en Educación: Revisión Sistemática\\ Presentación de Avances} %
 
-\author{Luis Angel Hernández Lázaro} % Your name
-\institute[CIMAT] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+\author{Luis Angel Hernández Lázaro} % 
+\institute[CIMAT] % 
 {
-Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institution for the title page
+Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % 
 \medskip
-\textit{luis.hernandez@cimat.com} % Your email address
+\textit{luis.hernandez@cimat.com} % 
 }
-\date{\today} % Date, can be changed to a custom date
+\date{\today} % 
 
 \begin{document}
 
@@ -78,6 +51,7 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 %----------------------------------------------------------------------------------------
 \begin{frame}
 \titlepage
+
 \end{frame}
 
 \begin{frame}
@@ -117,7 +91,9 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 
 \begin{frame}
 	\frametitle{Motivación}
-	Elegí este tema debido al interés e el área para aplicar técnicas o métodos de gamificación en la educación, con el objetivo de motivar el aprendizaje de los estudiantes y mejorar su desempeño académico.
+	Debido al interés en el de conocer acerca del tema, en especial la gamificación aplicada en la educación.	\\~\\
+	Saber como la gamificación puede mejorar la motivación para el aprendizaje de los estudiantes y mejorar su desempeño académico.	\\~\\
+	Qué métodos o técnicas existen para ser aplicadas en la educación.
 	\\~\\
 	
 	\begin{figure}
@@ -129,7 +105,19 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 
 \begin{frame}
 	\frametitle{BackGround}
-	.\\~\\
+	\begin{description}
+		\item[Gamificación]: Gamification es la aplicación de la mecánica de juego y el jugador, incentivado a los entornos que no son juegos (O'Donovan, gain, \& Marais,2013).
+		\item[Elementos]: para el salón de clases
+		\begin{itemize}
+			\item Retroalimentación
+			\item Colaboración
+			\item Puntuaciones, Niveles, Premios
+			\item Quest (Actividades, Tareas, Trabajos)
+			\item Historias
+			\item Mapa de Conocimiento.
+		\end{itemize} 
+		(Villagrasa \& Duran, 2013)
+	\end{description}
 \end{frame}
 
 \section{Revisión Sistemática}
@@ -142,21 +130,49 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 	\end{figure}
 \end{frame}
 
-
 \subsection{Proceso}
 \begin{frame}
 	\frametitle{El Proceso de la Revisión Sistemática}	
-	\begin{figure}[H]
-		\begin{center}
-			\includegraphics[scale=0.4]{images/1document/steps.png}
-		\end{center}
-	\end{figure}
-	\begin{figure}[H]
-		\begin{center}
-			\includegraphics[scale=1]{images/2icons/steps.png}
-		\end{center}
-	\end{figure}
 	
+	\begin{table}
+		\begin{center}
+			\begin{tabular}{| p{5cm} | l |}
+				\hline 
+				\multicolumn{1}{|c|}{\textbf{Etapa}} & \multicolumn{1}{|c|}{\textbf{Paso}}\\
+				\hline
+				\multicolumn{1}{|c|}
+				{\multirow{4}{*}
+					{\begin{tabular}[c]{@{}c@{}}
+							Planificación de\\ la Revisión
+						\end{tabular}}
+					} & Identificación de la necesidad para realizar la revisión.\\ \cline{2-2} 
+					\multicolumn{1}{|c|}{} & Especificación de la(s) pregunta(s) de investigación.\\ \cline{2-2} 
+					\multicolumn{1}{|c|}{} & Desarrollo del protocolo de revisión.\\ \cline{2-2} 
+					\multicolumn{1}{|c|}{} & Evaluación del protocolo de revisión.\\ 
+					\hline
+					\multicolumn{1}{|c|}
+					{\multirow{5}{*}
+						{\begin{tabular}[c]{@{}c@{}}
+								Ejecución de\\ la Revisión
+							\end{tabular}}
+						} & Identificación de la investigación.\\ \cline{2-2} 
+						\multicolumn{1}{|c|}{} & Selección de estudios primarios.\\ \cline{2-2} 
+						\multicolumn{1}{|c|}{} & Evaluación de la calidad de los estudios.\\ \cline{2-2} 
+						\multicolumn{1}{|c|}{} & Extracción y monitoreo de datos.\\ \cline{2-2} 
+						\multicolumn{1}{|c|}{} & Sintetizar los datos.\\ 
+						\hline
+						\multicolumn{1}{|c|}
+						{\multirow{3}{*}
+							{\begin{tabular}[c]{@{}c@{}}
+									Reportar\\ Resultados
+								\end{tabular}}
+							} & Especificación de los mecanismos de difusión.\\ \cline{2-2} 
+							\multicolumn{1}{|c|}{} & Formateo del informe principal.\\ \cline{2-2} 
+							\multicolumn{1}{|c|}{} & Evaluación del reporte.\\ 
+							\hline
+				\end{tabular}
+		\end{center}
+	\end{table}	
 \end{frame}
 
 
@@ -173,17 +189,14 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 \end{frame}
 
 \begin{frame}
-    \frametitle{Protocolo}    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.1]{images/2icons/need.png}
-		\end{center}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
     \frametitle{Identificación de la Necesidad de la Revisión Sistemática}
-    Hoy en día la Gamificación es un tema que esta siendo aplicado más allá de los juegos que tradicionalmente conocemos, la aplicación de técnicas para gamificación pueden ser variadas dependiendo del área donde se trabaje. Entonces, es importante conocer si las técnicas y métodos de Gamificación desarrollados para la educación pueden ser aplicados en entornos de la educación en línea (E-Learning).
+    Hoy en día la Gamificación es un tema que esta siendo aplicado más allá de los juegos que tradicionalmente conocemos, la aplicación de técnicas para gamificación pueden ser variadas dependiendo del área donde se trabaje. \\
+    La necesidad surge para conocer si las técnicas o métodos de Gamificación desarrollados pueden ser aplicados en la educación para mejorar el aprendizaje de los estudiantes.
+    	\begin{figure}
+    		\begin{center}
+    			\includegraphics[scale=0.1]{images/2icons/guide.png}
+    		\end{center}
+    	\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -403,9 +416,9 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
     			\hline
     			Incluir información sobre métodos de implementación para establecer estrategias de aprendizaje por medio de ``Gamification''.{ }& Excluir toda la información que no este relacionada con los criterios de inclusión definidos.\\
     			\hline
-    			Incluir información que contenga experiencias del aprendizaje con ``Gamification''. &{.} \\
+    			Incluir información que contenga experiencias del aprendizaje con ``Gamification''. &{ } \\
     			\hline
-    			Incluir información donde se muestren estudios para el aprendizaje por medio de técnicas de e-learning.& {.}\\ \hline
+    			Incluir información donde se muestren estudios para el aprendizaje por medio de técnicas de e-learning.& { }\\ \hline
     		\end{tabular}
     	\end{center}
     \end{table}
@@ -446,12 +459,28 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 \end{frame}
 
 \begin{frame}
-    \frametitle{Sístensis de la Información}
-    .
+    \frametitle{Sístensis de la Información\\ Año de Publicación}
 	\begin{figure}
 		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			
+			\includegraphics[scale=0.4]{images/1document/PrimariosAnio.png}
+		\end{center}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Sístensis de la Información\\ Lugar de Publicación}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[scale=0.35]{images/1document/PrimariosLugar2.png}
+		\end{center}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Sístensis de la Información\\ Tema Principal del Artículo}
+	\begin{figure}
+		\begin{center}
+			\includegraphics[scale=0.55]{images/1document/theme.png}
 		\end{center}
 	\end{figure}
 \end{frame}
@@ -466,51 +495,37 @@ Centro de Investigación en Matemáticas A.C. Unidad Zacatecas \\ % Your institu
 
 \begin{frame}
     \frametitle{Métodos y Técnicas Aplicados}
-    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			
-		\end{center}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Evaluación del Reporte}
-    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			
-		\end{center}
-	\end{figure}
+    \begin{figure}
+    	\begin{center}
+    		\includegraphics[scale=0.4]{images/1document/comparative.png}
+    	\end{center}
+    \end{figure}
 \end{frame}
 %------------------------------------------------
 \section{Conclusiones} %
 %------------------------------------------------
 \begin{frame}
     \frametitle{Conclusiones}
-    .
-	\begin{figure}
-		\begin{center}
-			\includegraphics[scale=0.45]{images/2icons/need.png}
-			
-		\end{center}
-	\end{figure}
+    Hasta este momento contra el objetivo general y los objetivos específicos no se han cumplido, porque el estado del arte aun no se encuentra definido. Sin embargo, esta en desarrollo.\\~\\
+    Por otro lado, los estudios primarios, contienen un buen marco de referencia para establecer el estado del arte en el tema de Gamificación en la Educación.\\
+    
 \end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{References}
-\footnotesize{
-\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-\bibitem[Smith, 2012]{p1} John Smith (2012)
-\newblock Title of the publication
-\newblock \emph{Journal Name} 12(3), 45 -- 678.
-\end{thebibliography}
+\frametitle{Referencias}
+\tiny{
+	\begin{itemize}
+		\item Barata, G., Gama, S., Jorge, J., \& Gonçalves, D. (2013). Improving Participation and Learning with Gamification, 10–17. http://doi.org/10.1145/2583008.2583010
+		\item De-Marcos, L., Domínguez, A., Saenz-De-Navarrete, J., \& Pagés, C. (2014). An empirical study comparing gamification and social networking on e-learning. Computers and Education, 75, 82–91. http://doi.org/10.1016/j.compedu.2014.01.012
+		\item Dunwell, I., Freitas, S. De, Petridis, P., Hendrix, M., Arnab, S., Lameras, P., \& Stewart, C. (2014). A Game-Based Learning Approach to Road Safety: The Code of Everand, 3389–3398.
+		\item O'donovan, S., Gain, J., \& Marais, P. (2013). A case study in the gamification of a university-level games development course. Proceedings of the South African Institute for Computer Scientists and Information Technologists Conference on - SAICSIT '13, 242–251. http://doi.org/10.1145/2513456.2513469
+			\item Pedro, L. Z., Lopes, A. M. Z., Prates, B. G., Vassileva, J., \& Isotani, S. (2015). Does Gamification Work for Boys and Girls? An Exploratory Study with a Virtual Learning Environment. ACM Symposium on Applied Computing, 214–219. http://doi.org/10.13140/RG.2.1.4783.5686
+			\item Villagrasa, S., \& Duran, J. (2013). Gamification for learning 3D computer graphics arts. Proceedings of the First International Conference on Technological Ecosystem for Enhancing Multiculturality - TEEM ’13, 429–433. http://doi.org/10.1145/2536536.2536602
+			\item Villagrasa, S., Fonseca, D., \& Durán, J. (2014). Teaching Case: Applying Gamification Techniques and Virtual Reality for Learning Building Engineering 3D Arts. Proceeding of the 2nd International Conference on Technological Ecosystems for Enhancing Multiculturality, 171–177.		
+	\end{itemize}
 }
 \end{frame}
-
 %------------------------------------------------
 
 \begin{frame}
